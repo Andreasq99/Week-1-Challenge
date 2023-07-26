@@ -20,7 +20,7 @@ header h1 {
     font-size: 48px;
 }
 
-
+/*The header nav is the navigation bar that contains links to each card in the content section.*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,7 +46,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*The hero is the big image at the top of the webpage, just below the header.*/
 #hero {
     height: 800px;
     width: 100%;
@@ -55,12 +55,14 @@ p {
     object-fit: cover;
 }
 
+/*The content section contains the cards that take up most of the page.*/
 #content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*The forms in the content section are used to properly typeset the cards.*/
 #content form{
     margin-bottom: 20px;
     padding: 50px;
@@ -79,6 +81,7 @@ p {
     font-size: 36px;
 }
 
+/*The benefits section contains the information on the right side of the page.*/
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,7 +92,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*The forms in the benefits section properly typeset each subsection.*/
 #benefits form {
     margin-bottom: 32px;
     color: #ffffff;
